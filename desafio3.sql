@@ -9,8 +9,3 @@ FROM SpotifyClone.person AS p
     INNER JOIN SpotifyClone.music AS m ON m.music_id = h.history_music_id
 GROUP BY p.person_name
 ORDER BY p.person_name ASC;
-
-
--- SELECT
---     ROUND(SUM(music_duration) / 60, 2) AS total_minutos
--- FROM SpotifyClone.music;
