@@ -157,7 +157,7 @@ INSERT INTO
         music_album_id,
         music_duration
     )
-VALUES ('BREAK MY SOUL', 1, 279), ("VIRGO'S GROVE", 1, 369), ('ALIEN SUPERSTAR', 1, 116), ("Don't Stop Me Now", 2, 203), ('Under Pressure', 2, 152), ('Como Nossos Pais', 3, 105), (
+VALUES ('BREAK MY SOUL', 1, 279), ("VIRGO'S GROOVE", 1, 369), ('ALIEN SUPERSTAR', 1, 116), ("Don't Stop Me Now", 2, 203), ('Under Pressure', 2, 152), ('Como Nossos Pais', 3, 105), (
         'O Medo de Amar é o Medo de Ser Livre',
         3,
         207
