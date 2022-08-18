@@ -1,7 +1,7 @@
 -- Active: 1660079668896@@127.0.0.1@3306@SpotifyClone
 
 SELECT
-    p.person_name AS usuario,
+    person_name AS usuario,
     IF(
         YEAR(MAX(h.history_reproduction_date)) >= 2021,
         'Usuário ativo',
