@@ -157,11 +157,11 @@ INSERT INTO
         music_album_id,
         music_duration
     )
-VALUES ('Break my soul', 1, 279), ("Virgo's groove", 1, 369), ('Alien superstar', 1, 116), ("Don't stop me now", 2, 203), ('Under pressure', 2, 152), ('Como nossos pais', 3, 105), (
-        'O medo de amar é o medo de ser livre',
+VALUES ('BREAK MY SOUL', 1, 279), ("VIRGO'S GROVE", 1, 369), ('ALIEN SUPERSTAR', 1, 116), ("Don't Stop Me Now", 2, 203), ('Under Pressure', 2, 152), ('Como Nossos Pais', 3, 105), (
+        'O Medo de Amar é o Medo de Ser Livre',
         3,
         207
-    ), ('Samba em Paris', 4, 267), ("The Bard's song", 5, 244), ('Feeling good', 6, 100);
+    ), ('Samba em Paris', 4, 267), ("The Bard's Song", 5, 244), ('Feeling Good', 6, 100);
 
 INSERT INTO
     SpotifyClone.follower (
