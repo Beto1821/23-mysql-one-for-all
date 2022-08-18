@@ -1,8 +1,8 @@
 -- Active: 1660079668896@@127.0.0.1@3306@SpotifyClone
 
 SELECT
-    artist_name AS artista,
-    album_name AS album,
+    artist_name artista,
+    album_name album,
     COUNT(follower_artist_id) AS seguidores
 FROM SpotifyClone.artist AS art
     INNER JOIN SpotifyClone.album AS alb ON art.artist_id = alb.album_artist_id

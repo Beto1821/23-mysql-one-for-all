@@ -1,7 +1,7 @@
 -- Active: 1660079668896@@127.0.0.1@3306@SpotifyClone
 SELECT 
-    m.music_name AS cancao,
-    COUNT(h.history_music_id) AS reproducoes 
+    music_name cancao,
+    COUNT(h.history_music_id) reproducoes 
 FROM 
     SpotifyClone.music AS m
 INNER JOIN SpotifyClone.history AS h
